@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T05:05:53.121Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="w8Cbr2o--T5GBKsV-n7I" version="15.3.7" type="github"><diagram id="PdFycrB_7tTO06IGKe78" name="Page-1">5ZZdT6wwEIZ/DZcmQFdcL909un5Ej2YTve6hIzSWDukWWc6vd5CyLLAmmrhq4hXtO9Ov551M8Ng8Wy8Mz9NrFKC80Bdrj/3xwjBgxyF9aqVqlKNo2giJkcIldcJS/gcn+k4tpIBVL9EiKivzvhij1hDbnsaNwbKf9oiqf2rOExgJy5irsfoghU0bdXrod/o5yCRtTw58F8l4m+yEVcoFllsSO/XY3CDaZpSt56BqeC2XZt3ZG9HNxQxo+54F98fpcpFjpc+uougqP/lXXC4O3C7PXBXuwe6ytmoJGCy0gHoT32OzMpUWljmP62hJnpOW2kzRLKCh2w6MhfWb9ww2r6eyAczAmopS3ILwyAGr2kpw87LjzyZOS7fZtwu58zzZ7N1hoYEj8wFK4YjSDdgSzROJVPIFoRpSo/fbPpqVNfgEc1RoSNGoKXP2KJUaSFzJRNM0Jl5A+qymKakiT1wgk0LUx+z0ou/WJ9jBooEdwdiOINphR7gvN9jIjb+FTVDqhNS7AoqxG19dw8wfQIt2QAt3QIv2BW0ygnahY8x+ErTJsNK+Hdrhz++OjL23O073RSkaUboFaly/rzVuuO+hNdK0+1V4jW39cLHTFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-15T05:10:34.572Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Kp2lkqlCKfLNrcoF2qkR" version="15.3.7" type="github">
+  <diagram id="PdFycrB_7tTO06IGKe78" name="Page-1">
+    <mxGraphModel dx="1392" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V9hSGpoynFK66KpAbuJG-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="100" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="V9hSGpoynFK66KpAbuJG-2" value="Network Module" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="110" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V9hSGpoynFK66KpAbuJG-3" value="Outgoing Queue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9hSGpoynFK66KpAbuJG-4" value="Incoming Queue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V9hSGpoynFK66KpAbuJG-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="330" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="V9hSGpoynFK66KpAbuJG-6" value="Peer Module" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="340" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
