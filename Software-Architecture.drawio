@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T07:21:09.989Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="oDxv8cw91q6fU1VVSBns" version="15.6.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-22T07:21:22.521Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="X7rLewiNXbBUaBLNmZBq" version="15.7.0" type="github" pages="4">
   <diagram id="PdFycrB_7tTO06IGKe78" name="Architecture">
-    <mxGraphModel dx="1392" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,6 +158,30 @@
         </mxCell>
         <mxCell id="3e17wOv8d04TT1B1AMwW-6" value="Link Module" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="377.5" y="980" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LHwx_53nksiXVGOqTTm_-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1395" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LHwx_53nksiXVGOqTTm_-2" value="Mutex" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LHwx_53nksiXVGOqTTm_-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1555" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LHwx_53nksiXVGOqTTm_-4" value="Acknowledgment List" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1435" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHwx_53nksiXVGOqTTm_-5" value="Acknowledgment Checklist" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1595" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHwx_53nksiXVGOqTTm_-6" value="Mutex" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1565" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LHwx_53nksiXVGOqTTm_-7" value="Send Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="1395" width="140" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="LHwx_53nksiXVGOqTTm_-8" value="Receive Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1390" width="130" height="305" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
