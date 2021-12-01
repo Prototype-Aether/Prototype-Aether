@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T14:58:58.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="5p-foWm4RP3315tYwrTd" version="15.8.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-01T15:05:49.500Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="XQlVQr31IemY6FpOBFql" version="15.8.6" type="github" pages="4">
   <diagram id="PdFycrB_7tTO06IGKe78" name="Architecture">
     <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0kTx7EAcdMh4NOcuyd4_" name="Queue">
-    <mxGraphModel dx="2370" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="tyVabii5Vsw2cVRcfl4J-0" />
         <mxCell id="tyVabii5Vsw2cVRcfl4J-1" parent="tyVabii5Vsw2cVRcfl4J-0" />
@@ -486,7 +486,7 @@
         <mxCell id="lKBx60X14rY8_e0dclRv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tyVabii5Vsw2cVRcfl4J-1" source="lKBx60X14rY8_e0dclRv-22" target="lKBx60X14rY8_e0dclRv-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lKBx60X14rY8_e0dclRv-22" value="is meta.retry_count &amp;lt; 10&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="tyVabii5Vsw2cVRcfl4J-1">
+        <mxCell id="lKBx60X14rY8_e0dclRv-22" value="is meta.retry_count &amp;gt; 10&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="tyVabii5Vsw2cVRcfl4J-1">
           <mxGeometry x="230" y="322.5" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lKBx60X14rY8_e0dclRv-23" value="Connection Error" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tyVabii5Vsw2cVRcfl4J-1">
@@ -500,6 +500,9 @@
         </mxCell>
         <mxCell id="tyVabii5Vsw2cVRcfl4J-13" value="Has been ack?" style="rhombus;whiteSpace=wrap;html=1;" parent="tyVabii5Vsw2cVRcfl4J-1" vertex="1">
           <mxGeometry x="120" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R3jGebz951ebS8eC2wN1-2" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tyVabii5Vsw2cVRcfl4J-1">
+          <mxGeometry x="380" y="335" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
