@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T19:35:02.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="MFORfkVnBvOM1TdtN1T3" version="15.8.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-01T20:27:14.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="I3dGUfmgxtxS9RH8x8qF" version="15.8.8" type="github" pages="4">
   <diagram id="PdFycrB_7tTO06IGKe78" name="Architecture">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0kTx7EAcdMh4NOcuyd4_" name="Queue">
-    <mxGraphModel dx="813" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="tyVabii5Vsw2cVRcfl4J-0" />
         <mxCell id="tyVabii5Vsw2cVRcfl4J-1" parent="tyVabii5Vsw2cVRcfl4J-0" />
@@ -456,6 +456,11 @@
         <mxCell id="lKBx60X14rY8_e0dclRv-9" value="Add acknowledged packet&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="tyVabii5Vsw2cVRcfl4J-1" vertex="1">
           <mxGeometry x="740" y="490" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="8xM_GcaRQ9S-04AD7CiF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="tyVabii5Vsw2cVRcfl4J-1" source="lKBx60X14rY8_e0dclRv-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="530.1428571428571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lKBx60X14rY8_e0dclRv-10" value="Add unacknowledge packet to the ack_miss" style="whiteSpace=wrap;html=1;" parent="tyVabii5Vsw2cVRcfl4J-1" vertex="1">
           <mxGeometry x="910" y="500" width="120" height="60" as="geometry" />
         </mxCell>
@@ -471,7 +476,7 @@
         <mxCell id="lKBx60X14rY8_e0dclRv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="tyVabii5Vsw2cVRcfl4J-1" source="lKBx60X14rY8_e0dclRv-15" target="lKBx60X14rY8_e0dclRv-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lKBx60X14rY8_e0dclRv-15" value="&lt;span&gt;Check &lt;br&gt;Acknowledgement &lt;br&gt;of packet in&lt;br&gt;&amp;nbsp;HashMap&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="tyVabii5Vsw2cVRcfl4J-1" vertex="1">
+        <mxCell id="lKBx60X14rY8_e0dclRv-15" value="&lt;span&gt;Check &lt;br&gt;Acknowledgement &lt;br&gt;of packet&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="tyVabii5Vsw2cVRcfl4J-1" vertex="1">
           <mxGeometry x="735" y="295" width="130" height="115" as="geometry" />
         </mxCell>
         <mxCell id="lKBx60X14rY8_e0dclRv-16" value="Ordered List of Acknowledged Packets&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="tyVabii5Vsw2cVRcfl4J-1" vertex="1">
@@ -512,6 +517,9 @@
         </mxCell>
         <mxCell id="8xM_GcaRQ9S-04AD7CiF-0" value="Set Meta to the packet&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="tyVabii5Vsw2cVRcfl4J-1">
           <mxGeometry x="100" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8xM_GcaRQ9S-04AD7CiF-23" value="Send" style="whiteSpace=wrap;html=1;" vertex="1" parent="tyVabii5Vsw2cVRcfl4J-1">
+          <mxGeometry x="1070" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
