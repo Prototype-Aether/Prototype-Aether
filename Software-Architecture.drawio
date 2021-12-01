@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-30T17:37:15.531Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="x3KXsmMLT7tb6phoG_Bb" version="15.8.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-01T10:20:45.601Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="FuETHHx7du_iNMZelj7Z" version="15.8.7" type="github" pages="4">
   <diagram id="PdFycrB_7tTO06IGKe78" name="Architecture">
     <mxGraphModel dx="1392" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -389,7 +389,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eApnZjKtCcMCIeWOJo9u" name="Packet Structure">
-    <mxGraphModel dx="663" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1392" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="XDRRk5pc3TNcPbYAYi4e-0" />
         <mxCell id="XDRRk5pc3TNcPbYAYi4e-1" parent="XDRRk5pc3TNcPbYAYi4e-0" />
@@ -490,19 +490,19 @@
           <mxGeometry x="560" y="295" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--25" value="Big Begin" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="600" y="375" width="160" height="40" as="geometry" />
+          <mxGeometry x="600" y="415" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--26" value="2" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
           <mxGeometry x="560" y="335" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--27" value="Big End" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="600" y="415" width="160" height="40" as="geometry" />
+          <mxGeometry x="600" y="455" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--28" value="3" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
           <mxGeometry x="560" y="375" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--29" value="Authentication" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="600" y="455" width="160" height="40" as="geometry" />
+          <mxGeometry x="600" y="495" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--30" value="ENC" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
           <mxGeometry x="760" y="160" width="40" height="40" as="geometry" />
@@ -514,7 +514,7 @@
           <mxGeometry x="560" y="415" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--33" value="Key Exchange" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="600" y="495" width="160" height="40" as="geometry" />
+          <mxGeometry x="600" y="535" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--34" value="Packet Types" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
           <mxGeometry x="560" y="220" width="200" height="30" as="geometry" />
@@ -529,25 +529,25 @@
           <mxGeometry x="560" y="90" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--38" value="Number of Packets" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="360" y="600" width="160" height="40" as="geometry" />
+          <mxGeometry x="360" y="660" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--39" value="Big Begin" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="360" y="560" width="160" height="30" as="geometry" />
+          <mxGeometry x="360" y="620" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--40" value="Bytes length" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="360" y="640" width="160" height="40" as="geometry" />
+          <mxGeometry x="360" y="700" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--42" value="Unique End ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="360" y="680" width="160" height="40" as="geometry" />
+          <mxGeometry x="360" y="740" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--43" value="Big End" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="560" y="560" width="200" height="30" as="geometry" />
+          <mxGeometry x="560" y="620" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--45" value="Unique End ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="560" y="600" width="160" height="40" as="geometry" />
+          <mxGeometry x="560" y="660" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--46" value="- When a lot of data was sent by client application and needs to be split up into packets&lt;br style=&quot;font-size: 12px;&quot;&gt;- We first send a &quot;big begin&quot; packet which tells how many packets to expect and the total byte length of the data&lt;br style=&quot;font-size: 12px;&quot;&gt;- The unique ID can be a random number&lt;br style=&quot;font-size: 12px;&quot;&gt;- When all data is sent, we send the &quot;big end&quot; packet containing the unique ID that we sent in the begining to mark the end&lt;br style=&quot;font-size: 12px;&quot;&gt;- I don&#39;t think unique ID is important so lets look into this more" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="770" y="560" width="340" height="160" as="geometry" />
+          <mxGeometry x="770" y="620" width="340" height="160" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--47" value="- If Acknowledgment needs is included ACK is 1&lt;br style=&quot;font-size: 12px;&quot;&gt;- If the data is encrypted, ENC is 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
           <mxGeometry x="820" y="90" width="260" height="130" as="geometry" />
@@ -564,11 +564,17 @@
         <mxCell id="Ni3AmC_gXmBmP1BBX9qo-1" value="ACK Only" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
           <mxGeometry x="600" y="295" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="41zo74MsNyh25wMQSmDr-0" value="6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XDRRk5pc3TNcPbYAYi4e-1">
+        <mxCell id="41zo74MsNyh25wMQSmDr-0" value="6" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
           <mxGeometry x="560" y="495" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="41zo74MsNyh25wMQSmDr-1" value="Initiation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XDRRk5pc3TNcPbYAYi4e-1">
+        <mxCell id="41zo74MsNyh25wMQSmDr-1" value="Initiation" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
           <mxGeometry x="600" y="335" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o2oZPS4AeppvVjxTVmTG-0" value="Close" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XDRRk5pc3TNcPbYAYi4e-1">
+          <mxGeometry x="600" y="375" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o2oZPS4AeppvVjxTVmTG-1" value="7" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XDRRk5pc3TNcPbYAYi4e-1">
+          <mxGeometry x="560" y="535" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
