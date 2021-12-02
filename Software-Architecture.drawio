@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T14:14:09.474Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Pq5BvPQPOmHEuYqoiAAo" version="15.8.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-02T14:27:45.991Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="BquGNiyTzglcLYR2Ub02" version="15.8.8" type="github" pages="4">
   <diagram id="PdFycrB_7tTO06IGKe78" name="Architecture">
     <mxGraphModel dx="1392" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -609,7 +609,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eApnZjKtCcMCIeWOJo9u" name="Packet Structure">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="XDRRk5pc3TNcPbYAYi4e-0" />
         <mxCell id="XDRRk5pc3TNcPbYAYi4e-1" parent="XDRRk5pc3TNcPbYAYi4e-0" />
@@ -767,7 +767,7 @@
           <mxGeometry x="560" y="660" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--46" value="- When a lot of data was sent by client application and needs to be split up into packets&lt;br style=&quot;font-size: 12px;&quot;&gt;- We first send a &quot;big begin&quot; packet which tells how many packets to expect and the total byte length of the data&lt;br style=&quot;font-size: 12px;&quot;&gt;- The unique ID can be a random number&lt;br style=&quot;font-size: 12px;&quot;&gt;- When all data is sent, we send the &quot;big end&quot; packet containing the unique ID that we sent in the begining to mark the end&lt;br style=&quot;font-size: 12px;&quot;&gt;- I don&#39;t think unique ID is important so lets look into this more" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
-          <mxGeometry x="770" y="620" width="340" height="160" as="geometry" />
+          <mxGeometry x="770" y="630" width="340" height="160" as="geometry" />
         </mxCell>
         <mxCell id="rx6J5JJjian3aIOLPlW--47" value="- If Acknowledgment needs is included ACK is 1&lt;br style=&quot;font-size: 12px;&quot;&gt;- If the data is encrypted, ENC is 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
           <mxGeometry x="820" y="90" width="260" height="130" as="geometry" />
