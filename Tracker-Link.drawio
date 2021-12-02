@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T05:55:28.922Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="eDt039ivMfZNW-GfHopY" version="15.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-02T14:25:07.653Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="6Qcza9v_VzY4q5QTctM0" version="15.8.8" type="github" pages="2">
   <diagram id="IKjqVOgxeg2wQAaVnLiK" name="Server Link Packet Structure">
-    <mxGraphModel dx="1392" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-0" />
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-1" parent="sJ-mI_hsvMh35UI8rQKV-0" />
@@ -40,13 +40,13 @@
         <mxCell id="QHLo0AknbR9kDvrQwXr--2" value="2" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
           <mxGeometry x="40" y="200" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QHLo0AknbR9kDvrQwXr--3" value="Connection Request&lt;br&gt;{username:}" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
+        <mxCell id="QHLo0AknbR9kDvrQwXr--3" value="Connection Request" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
           <mxGeometry x="120" y="200" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--4" value="2" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
           <mxGeometry x="320" y="200" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QHLo0AknbR9kDvrQwXr--5" value="ok" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
+        <mxCell id="QHLo0AknbR9kDvrQwXr--5" value="Success" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
           <mxGeometry x="400" y="200" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--6" value="3" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
@@ -167,7 +167,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jb5kOYLrFFZNdn3lgStu" name="Connection Algorithm">
-    <mxGraphModel dx="960" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="LOqnOxIcrfnhqqUliYvZ-0" />
         <mxCell id="LOqnOxIcrfnhqqUliYvZ-1" parent="LOqnOxIcrfnhqqUliYvZ-0" />
