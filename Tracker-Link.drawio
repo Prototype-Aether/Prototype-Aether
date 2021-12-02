@@ -1,167 +1,176 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T14:25:07.653Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="6Qcza9v_VzY4q5QTctM0" version="15.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-02T14:27:30.607Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="A4w4qMdsFF7HEjMkneLE" version="15.8.8" type="github" pages="2">
   <diagram id="IKjqVOgxeg2wQAaVnLiK" name="Server Link Packet Structure">
-    <mxGraphModel dx="677" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-0" />
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-1" parent="sJ-mI_hsvMh35UI8rQKV-0" />
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-15" value="0" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="40" y="120" width="80" height="40" as="geometry" />
+          <mxGeometry x="40" y="320" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-16" value="Identity Report" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="120" y="120" width="200" height="40" as="geometry" />
+          <mxGeometry x="120" y="320" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-17" value="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="40" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="40" y="360" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-18" value="Identity Request" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="120" y="160" width="200" height="40" as="geometry" />
+          <mxGeometry x="120" y="360" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-19" value="0" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="320" y="120" width="80" height="40" as="geometry" />
+          <mxGeometry x="320" y="320" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-20" value="Report Public Ip and port" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="400" y="120" width="200" height="40" as="geometry" />
+          <mxGeometry x="400" y="320" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-23" value="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="320" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="320" y="360" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-24" value="Report Public IP and port of requested username" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="400" y="160" width="200" height="40" as="geometry" />
+          <mxGeometry x="400" y="360" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-26" value="Type Numbers" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="40" y="40" width="220" height="30" as="geometry" />
+          <mxGeometry x="40" y="240" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--0" value="Request" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="40" y="80" width="280" height="40" as="geometry" />
+          <mxGeometry x="40" y="280" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--1" value="Response" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="320" y="80" width="280" height="40" as="geometry" />
+          <mxGeometry x="320" y="280" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--2" value="2" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="40" y="200" width="80" height="40" as="geometry" />
+          <mxGeometry x="40" y="400" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--3" value="Connection Request" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="120" y="200" width="200" height="40" as="geometry" />
+          <mxGeometry x="120" y="400" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--4" value="2" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="320" y="200" width="80" height="40" as="geometry" />
+          <mxGeometry x="320" y="400" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--5" value="Success" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="400" y="200" width="200" height="40" as="geometry" />
+          <mxGeometry x="400" y="400" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--6" value="3" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="40" y="240" width="80" height="40" as="geometry" />
+          <mxGeometry x="40" y="440" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--7" value="Connection Poll" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="120" y="240" width="200" height="40" as="geometry" />
+          <mxGeometry x="120" y="440" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--8" value="3" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="320" y="240" width="80" height="40" as="geometry" />
+          <mxGeometry x="320" y="440" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--9" value="Report list of Public IP and port pairs that are requesting connection" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="400" y="240" width="200" height="40" as="geometry" />
+          <mxGeometry x="400" y="440" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--14" value="A" style="rounded=1;whiteSpace=wrap;html=1;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="120" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--15" value="B" style="rounded=1;whiteSpace=wrap;html=1;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="620" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--16" value="Tracker" style="rounded=1;whiteSpace=wrap;html=1;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="365" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" target="QHLo0AknbR9kDvrQwXr--14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="730" as="sourcePoint" />
-            <mxPoint x="460" y="500" as="targetPoint" />
+            <mxPoint x="180" y="930" as="sourcePoint" />
+            <mxPoint x="460" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="730" as="sourcePoint" />
-            <mxPoint x="430" y="390" as="targetPoint" />
+            <mxPoint x="430" y="930" as="sourcePoint" />
+            <mxPoint x="430" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="679.5799999999999" y="730" as="sourcePoint" />
-            <mxPoint x="679.5799999999999" y="390" as="targetPoint" />
+            <mxPoint x="679.5799999999999" y="930" as="sourcePoint" />
+            <mxPoint x="679.5799999999999" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--20" value="" style="endArrow=classic;html=1;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="430" as="sourcePoint" />
-            <mxPoint x="430" y="430" as="targetPoint" />
+            <mxPoint x="180" y="630" as="sourcePoint" />
+            <mxPoint x="430" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--22" value="I want to connect to B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="220" y="400" width="170" height="30" as="geometry" />
+          <mxGeometry x="220" y="600" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--23" value="" style="endArrow=classic;html=1;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="470" as="sourcePoint" />
-            <mxPoint x="430" y="470" as="targetPoint" />
+            <mxPoint x="680" y="670" as="sourcePoint" />
+            <mxPoint x="430" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--24" value="Poll: Is anyone trying to connect to me?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="470" y="440" width="170" height="30" as="geometry" />
+          <mxGeometry x="470" y="640" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--25" value="" style="endArrow=classic;html=1;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="520" as="sourcePoint" />
-            <mxPoint x="680" y="520" as="targetPoint" />
+            <mxPoint x="430" y="720" as="sourcePoint" />
+            <mxPoint x="680" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--26" value="A wants to connect to you" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="465" y="490" width="170" height="30" as="geometry" />
+          <mxGeometry x="465" y="690" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--29" value="" style="endArrow=classic;html=1;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="570" as="sourcePoint" />
-            <mxPoint x="430" y="570" as="targetPoint" />
+            <mxPoint x="680" y="770" as="sourcePoint" />
+            <mxPoint x="430" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--30" value="I want to connect to A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="470" y="540" width="170" height="30" as="geometry" />
+          <mxGeometry x="470" y="740" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--31" value="Create new identity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="70" y="410" width="100" height="30" as="geometry" />
+          <mxGeometry x="70" y="610" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--32" value="Create a new Identity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="680" y="550" width="110" height="30" as="geometry" />
+          <mxGeometry x="680" y="750" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--33" value="" style="endArrow=classic;html=1;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="610" as="sourcePoint" />
-            <mxPoint x="180" y="610" as="targetPoint" />
+            <mxPoint x="430" y="810" as="sourcePoint" />
+            <mxPoint x="180" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--34" value="B wants to connect to you" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="215" y="580" width="170" height="30" as="geometry" />
+          <mxGeometry x="215" y="780" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--35" value="" style="endArrow=classic;html=1;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="579.17" as="sourcePoint" />
-            <mxPoint x="430" y="579.17" as="targetPoint" />
+            <mxPoint x="180" y="779.17" as="sourcePoint" />
+            <mxPoint x="430" y="779.17" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--36" value="Poll: Is anyone trying to connect to me?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="220" y="549.17" width="170" height="30" as="geometry" />
+          <mxGeometry x="220" y="749.17" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--37" value="" style="endArrow=classic;html=1;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="489.1700000000001" as="sourcePoint" />
-            <mxPoint x="430" y="489.1700000000001" as="targetPoint" />
+            <mxPoint x="180" y="689.1700000000001" as="sourcePoint" />
+            <mxPoint x="430" y="689.1700000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--38" value="Poll: Is anyone trying to connect to me?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="220" y="459.16999999999996" width="170" height="30" as="geometry" />
+          <mxGeometry x="220" y="659.17" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--39" value="I already tried to connect to B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="60" y="600" width="110" height="30" as="geometry" />
+          <mxGeometry x="60" y="800" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QHLo0AknbR9kDvrQwXr--40" value="Connection Request:&lt;br&gt;- identity number&lt;br&gt;- my username&lt;br&gt;- other username&lt;br&gt;&lt;br&gt;Poll response:&lt;br&gt;- array&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;- ip&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;- port&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;- identity number&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;- username" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="sJ-mI_hsvMh35UI8rQKV-1" vertex="1">
-          <mxGeometry x="650" y="100" width="140" height="150" as="geometry" />
+          <mxGeometry x="650" y="300" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="geOGu_8eFn9dAaErMgnA-0" value="UDP Header" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sJ-mI_hsvMh35UI8rQKV-1">
+          <mxGeometry x="40" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="geOGu_8eFn9dAaErMgnA-1" value="Request/Response&lt;br&gt;as JSON" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="sJ-mI_hsvMh35UI8rQKV-1">
+          <mxGeometry x="40" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="geOGu_8eFn9dAaErMgnA-3" value="Tracker Packet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="sJ-mI_hsvMh35UI8rQKV-1">
+          <mxGeometry x="40" y="40" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
