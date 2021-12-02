@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T03:56:41.018Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="OgHQf2byLW46MrvtpYX6" version="15.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-02T03:56:59.574Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="vcE7KI04SQd5m1wNUbNI" version="15.8.8" type="github" pages="2">
   <diagram id="IKjqVOgxeg2wQAaVnLiK" name="Server Link Packet Structure">
     <mxGraphModel dx="1392" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Jb5kOYLrFFZNdn3lgStu" name="Page-2">
+  <diagram id="Jb5kOYLrFFZNdn3lgStu" name="Connection Algorithm">
     <mxGraphModel dx="960" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="LOqnOxIcrfnhqqUliYvZ-0" />
