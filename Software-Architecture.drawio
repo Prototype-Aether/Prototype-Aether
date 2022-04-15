@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T16:31:57.303Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="IcBXi400lbnf6J1DvvgI" version="15.8.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-15T05:12:06.146Z" agent="5.0 (X11)" etag="Zdc4MYMe1zEh__jhjtbk" version="16.6.1" type="github" pages="5">
   <diagram id="PdFycrB_7tTO06IGKe78" name="Architecture">
-    <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1392" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -609,7 +609,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eApnZjKtCcMCIeWOJo9u" name="Packet Structure">
-    <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1392" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="XDRRk5pc3TNcPbYAYi4e-0" />
         <mxCell id="XDRRk5pc3TNcPbYAYi4e-1" parent="XDRRk5pc3TNcPbYAYi4e-0" />
@@ -795,6 +795,86 @@
         </mxCell>
         <mxCell id="o2oZPS4AeppvVjxTVmTG-1" value="7" style="rounded=0;whiteSpace=wrap;html=1;" parent="XDRRk5pc3TNcPbYAYi4e-1" vertex="1">
           <mxGeometry x="560" y="535" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zBUuyCk_DwgY9pmHmEG3" name="Encrypted Packet">
+    <mxGraphModel dx="795" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="pHLnU0kWFYhperJUrvsI-0" />
+        <mxCell id="pHLnU0kWFYhperJUrvsI-1" parent="pHLnU0kWFYhperJUrvsI-0" />
+        <mxCell id="pHLnU0kWFYhperJUrvsI-2" value="AAD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="40" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pHLnU0kWFYhperJUrvsI-3" value="16 bytes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="50" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xE0-9gDMu6Dz17seE0Wb-0" value="AEAD Encrypted Payload Structure" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="40" y="50" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xE0-9gDMu6Dz17seE0Wb-1" value="TAG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="120" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xE0-9gDMu6Dz17seE0Wb-2" value="IV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="200" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xE0-9gDMu6Dz17seE0Wb-3" value="Crypto Text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="40" y="160" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K6JN6hThUGt9FEBrGLKk-0" value="16 bytes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="130" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K6JN6hThUGt9FEBrGLKk-1" value="16 bytes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="210" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-0" value="Key Exchange" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="40" y="330" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-1" value="Alice" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="110" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="pHLnU0kWFYhperJUrvsI-1" target="zPlGkycjLUDu17N5Crzf-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="680" as="sourcePoint" />
+            <mxPoint x="470" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-4" value="Bob" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="390" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="pHLnU0kWFYhperJUrvsI-1" target="zPlGkycjLUDu17N5Crzf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="680" as="sourcePoint" />
+            <mxPoint x="750" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="480" as="sourcePoint" />
+            <mxPoint x="450" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-7" value="Send A&#39;s secret encrypted with B&#39;s public key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="170" y="450" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="549" as="sourcePoint" />
+            <mxPoint x="170" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-9" value="Send B&#39;s secret encrypted with A&#39;s public key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="170" y="516" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-10" value="Decrypt A&#39;s secret and XOR with own secret - shared secret (key)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="450" y="550" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-11" value="Decrypt B&#39;s secret and XOR with own secret - shared secret (key)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="20" y="550" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPlGkycjLUDu17N5Crzf-12" value="Start E2E encrypted communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="pHLnU0kWFYhperJUrvsI-1">
+          <mxGeometry x="220" y="600" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
