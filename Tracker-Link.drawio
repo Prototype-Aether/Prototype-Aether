@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T11:35:57.736Z" agent="5.0 (X11)" etag="FbDcEOsbuUoJ0JnLnphK" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-24T11:38:31.415Z" agent="5.0 (X11)" etag="hmNbyk_Kf4cQDyicNQLs" version="17.4.6" type="github" pages="3">
   <diagram id="IKjqVOgxeg2wQAaVnLiK" name="Server Link Packet Structure">
-    <mxGraphModel dx="1648" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-0" />
         <mxCell id="sJ-mI_hsvMh35UI8rQKV-1" parent="sJ-mI_hsvMh35UI8rQKV-0" />
@@ -355,8 +355,8 @@
         <mxCell id="o8mdv0prAOJND2KuzbBG-5" value="Add request to requests queue" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wi9ZU9q2VEs4Tge0wsed-1" value="Socket Keepalive" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="330" y="50" width="260" height="30" as="geometry" />
+        <mxCell id="wi9ZU9q2VEs4Tge0wsed-1" value="Connections Handler (Socket Keepalive)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="330" y="20" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wi9ZU9q2VEs4Tge0wsed-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wi9ZU9q2VEs4Tge0wsed-2" target="wi9ZU9q2VEs4Tge0wsed-3">
           <mxGeometry relative="1" as="geometry" />
