@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T11:44:18.132Z" agent="5.0 (X11)" etag="yU-Nb10J5TWHiIcaubpn" version="17.4.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-04-24T11:54:54.376Z" agent="5.0 (X11)" etag="PDGuXgc6naN3YB7OBDG0" version="17.4.6" type="github" pages="10">
   <diagram id="gCq9dWPSjrqPxtmmnewQ" name="High Level Architecture">
     <mxGraphModel dx="1408" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -437,6 +437,161 @@
         </mxCell>
         <mxCell id="4XUfo85uR9N0Kyq9gbAh-67" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="750" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ChpL_PSUmdq-rx5s0JOJ" name="Handshake and Auth">
+    <mxGraphModel dx="1408" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-1" value="Peer A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-2" value="Peer B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="7PqseXcbvzsqa-TPSm8C-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="590" as="sourcePoint" />
+            <mxPoint x="445" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="7PqseXcbvzsqa-TPSm8C-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="634.5" y="590" as="sourcePoint" />
+            <mxPoint x="635" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="270" as="sourcePoint" />
+            <mxPoint x="635" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-6" value="Send Sequence Number and ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="309.5" y="250" width="222" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="430" as="sourcePoint" />
+            <mxPoint x="635" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-8" value="Send Sequence Number and ID &amp;amp; Acknowledge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="410" width="222" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="350" as="sourcePoint" />
+            <mxPoint x="215" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-10" value="Send Sequence Number and ID &amp;amp; Acknowledge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="330" width="232" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-11" value="A Starts Link" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="440" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-12" value="B Starts Link" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="635" y="480" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="7PqseXcbvzsqa-TPSm8C-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="210" as="sourcePoint" />
+            <mxPoint x="245" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-14" value="Send Sequence Number and ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="190" width="232" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-15" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="230" y="235" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7PqseXcbvzsqa-TPSm8C-16" value="&lt;div&gt;UDP Holepunching&lt;/div&gt;&lt;div&gt;Handshake&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="44" y="40" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-1" value="Peer A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-2" value="Peer B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="aiovwaKcoh6Ddgj2dP5p-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="1160" as="sourcePoint" />
+            <mxPoint x="445" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="aiovwaKcoh6Ddgj2dP5p-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="649.5" y="1160" as="sourcePoint" />
+            <mxPoint x="650" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-5" value="Authentication" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="70" y="620" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="870" as="sourcePoint" />
+            <mxPoint x="650" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-7" value="Send Encrypted nonce to Peer B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307" y="840" width="237" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-8" value="Generate random nonce" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="790" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-9" value="Generate random nonce" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="790" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="920" as="sourcePoint" />
+            <mxPoint x="215" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-11" value="Send Encrypted nonce to Peer A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="302" y="890" width="237" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-12" value="Encrypt nonce with B&#39;s public key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="850" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-13" value="&lt;div&gt;Encrypt nonce with&lt;/div&gt;&lt;div&gt;A&#39;s public key&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="900" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-14" value="Decrypt received nonce with own private key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1000" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="970" as="sourcePoint" />
+            <mxPoint x="650" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-16" value="Send decrypted nonce back to Peer B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307" y="940" width="237" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="1020" as="sourcePoint" />
+            <mxPoint x="215" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-18" value="Send decrypted nonce back to Peer A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="302" y="990" width="237" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-19" value="Decrypt received nonce with own private key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="950" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-20" value="Check if received nonce is same as generated random nonce" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1060" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiovwaKcoh6Ddgj2dP5p-21" value="Check if received nonce is same as generated random nonce" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="655" y="1060" width="135" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1283,80 +1438,6 @@
         </mxCell>
         <mxCell id="zPlGkycjLUDu17N5Crzf-12" value="Start E2E encrypted communication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" parent="pHLnU0kWFYhperJUrvsI-1" vertex="1">
           <mxGeometry x="220" y="600" width="180" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="ChpL_PSUmdq-rx5s0JOJ" name="Handshake and Auth">
-    <mxGraphModel dx="1408" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-1" value="Peer A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-2" value="Peer B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="575" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="7PqseXcbvzsqa-TPSm8C-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="215" y="590" as="sourcePoint" />
-            <mxPoint x="445" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="7PqseXcbvzsqa-TPSm8C-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="634.5" y="590" as="sourcePoint" />
-            <mxPoint x="635" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="215" y="270" as="sourcePoint" />
-            <mxPoint x="635" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-6" value="Send Sequence Number and ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="309.5" y="250" width="222" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="215" y="430" as="sourcePoint" />
-            <mxPoint x="635" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-8" value="Send Sequence Number and ID &amp;amp; Acknowledge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="314" y="410" width="222" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="635" y="350" as="sourcePoint" />
-            <mxPoint x="215" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-10" value="Send Sequence Number and ID &amp;amp; Acknowledge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="304" y="330" width="232" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-11" value="A Starts Link" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="115" y="440" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-12" value="B Starts Link" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="635" y="480" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="7PqseXcbvzsqa-TPSm8C-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="635" y="210" as="sourcePoint" />
-            <mxPoint x="245" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-14" value="Send Sequence Number and ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="304" y="190" width="232" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-15" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="230" y="235" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7PqseXcbvzsqa-TPSm8C-16" value="&lt;div&gt;UDP Holepunching&lt;/div&gt;&lt;div&gt;Handshake&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="44" y="40" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
