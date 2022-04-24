@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T10:56:09.925Z" agent="5.0 (X11)" etag="xJDbYGExgnynFsBildoP" version="17.4.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-04-24T11:02:38.528Z" agent="5.0 (X11)" etag="PA-g65q99s-QA2CrkelD" version="17.4.6" type="github" pages="7">
   <diagram id="PdFycrB_7tTO06IGKe78" name="Architecture">
     <mxGraphModel dx="1648" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1047,7 +1047,7 @@
         <mxCell id="TGltTx5oA6oi1l_4585h-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="70" y="1300" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="TGltTx5oA6oi1l_4585h-22" value="Request Handler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="TGltTx5oA6oi1l_4585h-22" value="Connections Handler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="120" y="1310" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TGltTx5oA6oi1l_4585h-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="TGltTx5oA6oi1l_4585h-23" target="DZZ5XY4yp4KyJ7zouPhh-6">
